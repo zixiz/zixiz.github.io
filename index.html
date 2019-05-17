@@ -5,10 +5,11 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="Shahar Gilad Website">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Shahar Gilad</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,9 +43,6 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Skills">Skills</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
@@ -67,19 +65,25 @@
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">FullStack Web Developer</h2>
       <hr class="star-light">
-      <p class="">If you are looking for a Full Stack Web developer to get your project done or product built, you have landed on the right place.</p>
-      <p>I'm using Front and Backend technologies such as: JavaScript, TypeScript, React, Node.js, Express, SQL/ORM, MongoDB and many more.</p>
+      <p class="sfont-up" >If you are looking for a Full Stack Web developer to get your project done or product built, you have landed on the right place.</p>
+      <p class="sfont-up">I'm using Front and Backend technologies such as: JavaScript, TypeScript, React, Node.js, Express, SQL/ORM, MongoDB and many more.</p>
     </div>
+    <div class="text-center mt-5">
+        <a class="btn btn-xl btn-outline-light" href="#contact">
+          <i class="fas fa-phone mr-2"></i>
+          Contact me
+        </a>
+      </div>
   </header>
 
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="portfolio">
-    <div class="container">
+    <div class="container-fluid">
       <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
       <hr class="star-dark mb-5">
       <div class="row">
         <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="https://infinite-dawn-41280.herokuapp.com/">
+          <a class="portfolio-item d-block mx-auto" href='#portfolio-modal-1'>
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <p>Node.js and React application, uses with Redux-Thunk, MySQL/Sequelize, Socket.io, Session and Chart.js </p>
@@ -87,9 +91,10 @@
             </div>
             <img class="img-fluid" src="img/portfolio/2019-05-02_1412.png" alt="">
           </a>
+          <button class="btn btn-outline-success mb-2 watch-btm"><a class="s-a" target="_blank" href="https://infinite-dawn-41280.herokuapp.com/">Watch Live!</a></button>
         </div>
         <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="https://zixiz.github.io/Cryptonite/">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <p>Single page application uses API to analyze cryptocurrency value and to present the most updated and accurate data</p>
@@ -97,9 +102,10 @@
             </div>
             <img class="img-fluid" src="img/portfolio/2019-05-02_1406.png" alt="">
           </a>
+          <button class="btn btn-outline-success mb-2 watch-btm"><a class="s-a" target="_blank" href="https://zixiz.github.io/Cryptonite/">Watch Live!</a></button>
         </div>
         <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="https://zixiz.github.io/Task-Board/">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <p>Task Board - Built with Javascript, using Local-Storage for later use</p>
@@ -107,10 +113,11 @@
             </div>
             <img class="img-fluid" src="img/portfolio/2019-05-02_1247.png" alt="">
           </a>
+          <button class="btn btn-outline-success mb-2 watch-btm"><a class="s-a" target="_blank" href="https://zixiz.github.io/Task-Board/">Watch Live!</a></button>
         </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills Section
   <section class="bg-primary text-white mb-0" id="Skills">
     <div class="container">
       <h2 class="text-center text-uppercase text-white">Skills</h2>
@@ -135,16 +142,27 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact Section -->
   <section id="contact">
     <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <h2 class="text-center text-uppercase text-secondary mb-0">Let's Get In Touch</h2>
       <hr class="star-dark mb-5">
       <div class="row">
         <p class="lead ml-auto mr-auto">Call me or just drop me an Email</p>
       </div>
+      <div class="row mt-3">
+        <div class="col-lg-4 ml-auto text-center">
+          <p><i class="fas fa-envelope fa-3x mb-3 text-muted"></i></p>
+          <a href="mailto:gshahchargilad@gmail.com">gshahchargilad@gmail.com</a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <p><i class="fas fa-phone fa-3x mb-3 text-muted"></i></p>
+          <a href="tel:+972-542036569">+972-542036569</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -152,12 +170,7 @@
   <footer class="footer text-center">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
-        </div>
-        <div class="col-md-4 mb-5 mb-lg-0">
+        <div class="col-md-6 mb-5 mb-lg-0 watch-btm">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
           <ul class="list-inline mb-0">
             <li class="list-inline-item">
@@ -187,18 +200,13 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
       </div>
     </div>
   </footer>
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy; Shahar Gilad</small>
     </div>
   </div>
 
@@ -210,7 +218,65 @@
   </div>
 
   <!-- Portfolio Modals -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Vacation Hunter</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/VacationHunter.png" alt="">
+            <p class="mb-5">Node.js and React application, uses with Redux-Thunk, MySQL/Sequelize, Socket.io, Session and Chart.js</p>
+            <a class="btn btn-primary btn-lg rounded-pill" target="_blank" href="https://infinite-dawn-41280.herokuapp.com/">
+              Watch Live!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Cryptonite</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/crypto.png" alt="">
+              <p class="mb-5">Single page application uses API to analyze cryptocurrency value and to present the most updated and accurate data</p>
+              <a class="btn btn-primary btn-lg rounded-pill" target="_blank" href="https://zixiz.github.io/Cryptonite/">
+                Watch Live!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Task Board</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/portfolio/2019-05-02_1247.png" alt="">
+                <p class="mb-5">Task Board - Built with Javascript, using Local-Storage for later use</p>
+                <a class="btn btn-primary btn-lg rounded-pill" target="_blank" href="https://zixiz.github.io/Task-Board/">
+                  Watch Live!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   
 
   <!-- Bootstrap core JavaScript -->
